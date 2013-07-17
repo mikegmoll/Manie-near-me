@@ -1,6 +1,7 @@
 MNM::Application.routes.draw do
 
   get 'about' => 'pages#about'
+ get 'create workout' => 'pages#create workout'
   root :to => 'pages#Home'
 
 
