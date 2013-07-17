@@ -1,5 +1,6 @@
 MNM::Application.routes.draw do
 
+  get 'about' => 'pages#about'
   root :to => 'pages#Home'
 
 
