@@ -8,6 +8,10 @@
 		</head>
 	<body>
 	<%= render 'layouts/header' %>
+	<div><form class="navbar-search pull-left">
+  <input type="text" class="search-query" placeholder="Team">
+  <input type="text" class="search-query" placeholder="Athlete">
+</form></div>
 	<%= yield %>
 		<div class="container"> 
 			<%= render 'layouts/footer' %>
