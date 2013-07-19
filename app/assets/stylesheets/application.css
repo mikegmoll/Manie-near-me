@@ -11,3 +11,8 @@
  *= require_self
  *= require_tree .
  */
+body {
+background-image:url('http://www.shambhalamusicfestival.com/wp-content/uploads/2013/01/background1.jpg');
+background-color:#cccccc; repeat scroll center top;
+}
+
