@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		  <title>Tri Harder</title>
+		  <title>Discover Shambhala</title>
 		  <%= stylesheet_link_tag    "application", :media => "all" %>
 		  <%= javascript_include_tag "application" %>
 		  <%= csrf_meta_tags %>
 		</head>
 	<body>
 	<%= render 'layouts/header' %>
-	<div><form class="navbar-search pull-left">
-  <input type="text" class="search-query" placeholder="Search Teams...">
-  <input type="text" class="search-query" placeholder="Search Athletes...">
-</form></div>
 	<%= yield %>
 		<div class="container"> 
 			<%= render 'layouts/footer' %>
